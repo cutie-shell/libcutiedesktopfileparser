@@ -27,5 +27,5 @@ Package: qml6-module-cutiedesktopfileparser
 Architecture: any
 Multi-Arch: foreign
 Pre-Depends: ${misc:Pre-Depends}
-Depends: ${misc:Depends}, ${shlibs:Depends}, cutiedesktopfileparser (= ${binary:Version})
+Depends: ${misc:Depends}, ${shlibs:Depends}, libcutiedesktopfileparser (= ${binary:Version})
 Description: This package contains a phone number abstraction library for Cutie. (QML module)
